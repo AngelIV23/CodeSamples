@@ -22,3 +22,5 @@ Powershell/MerakiSDK/sdktest.ps1
 Python/Networking/Nornir/yamlizer.py
 nornir.log
 nornir.log
+Lib/
+Scripts/

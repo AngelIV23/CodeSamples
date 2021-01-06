@@ -1,6 +1,6 @@
 from ncclient import manager
 
-router = {"host": "ios-xe-mgmt-latest.cisco.com", "port": "10000",
+router = {"host": "sandbox-iosxe-latest-1.cisco.com", "port": "830",
           "username": "developer", "password": "C1sco12345"}
 
 netconf_filter = """
