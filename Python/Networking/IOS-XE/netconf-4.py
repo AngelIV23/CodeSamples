@@ -5,7 +5,7 @@ import xmltodict
 # import logging
 # logging.basicConfig(level=logging.DEBUG)
 
-router = {"host": "ios-xe-mgmt-latest.cisco.com", "port": "10000",
+router = {"host": "ios-xe-mgmt.cisco.com", "port": "10000",
           "username": "developer", "password": "C1sco12345"}
 print(router["host"])
 print(router["port"])
@@ -57,4 +57,4 @@ op_state = interface_python["interfaces-state"]["interface"]
 print("Start")
 print(f"Name: {config['name']['#text']}")
 print(f"Description: {config['description']}")
-print(f"Pakcets In {op_state['statistics']['in-unicast-pkts']}")
+print(f"Packets In {op_state['statistics']['in-unicast-pkts']}")
